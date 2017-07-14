@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="http://10.236.152.45/components/dropzone/node_modules/mocha/mocha.css" />
+
+<div id="mocha"></div>
+<script src="http://10.236.152.45/components/dropzone/node_modules/mocha/mocha.js"></script>
+<script src="http://10.236.152.45/components/dropzone/node_modules/chai/chai.js"></script>
+<script src="http://10.236.152.45/components/dropzone/node_modules/sinon/pkg/sinon-1.9.1.js"></script>
+<script src="../dist/dropzone.js"></script>
+
+<script>
+  mocha.ui('bdd'); 
+  mocha.reporter('html');
+  expect = chai.expect;
+  chai.should();
+</script>
+<script src="test.js"></script>
+
+<script>
+  if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
+  else { mocha.run(); }
+</script>

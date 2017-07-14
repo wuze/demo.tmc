@@ -1,0 +1,5 @@
+/* component.css */
+@import 'test.css';
+body {
+  background-image: url(http://10.236.152.45/components/require-css-0.1.8/example/www/test.jpg);
+}

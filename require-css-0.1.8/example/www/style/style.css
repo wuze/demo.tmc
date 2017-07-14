@@ -1,0 +1,6 @@
+/* module.css */
+/* used by app.js */
+@import 'http://10.236.152.45/test.css'
+body {
+  font-family: sans-serif;
+}
